@@ -63,6 +63,8 @@ int main()
 
 	const int num = 1 << 11;
 
+	std::cout << "Running Boids simulation (single-threaded) with " << num << " Boids." << std::endl;
+
 	std::vector<Boid> boids(num);
 
 	for (auto& boid : boids)
